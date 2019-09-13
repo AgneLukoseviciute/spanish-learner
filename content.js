@@ -12,7 +12,7 @@ for (var i = 0; i < elements.length; i++) {
             var originalText = currNode.nodeValue;
             var replacedText = originalText;
 
-            for (var t = 1; t < 37; t++){
+            for (var t = 1; t < 48; t++){
               var englishWord = wordIndexes[t];
               var toSpanish = commonNouns[englishWord];
               var re = new RegExp("\\b" + englishWord + "\\b", 'gi');
