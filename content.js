@@ -15,7 +15,7 @@ for (var i = 0; i < elements.length; i++) {
             for (var t = 1; t < 37; t++){
               var englishWord = wordIndexes[t];
               var toSpanish = commonNouns[englishWord];
-              var re = new RegExp(englishWord, "gi");
+              var re = new RegExp("\\b" + englishWord + "\\b", 'gi');
               replacedText = replacedText.replace(re, toSpanish);
             }
 
