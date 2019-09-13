@@ -9,6 +9,7 @@
                 "*://*/*"
             ],
             "js": [
+                "words.js",
                 "content.js"
             ],
             "run_at": "document_end"
